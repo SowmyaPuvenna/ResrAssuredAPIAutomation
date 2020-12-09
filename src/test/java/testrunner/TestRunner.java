@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = { "html:target/HTML_Reports/", "json:target/cucumber.json" }, 
-		features = ".", glue = {"stepdefinations" }
+		features = ".", glue = {"stepdefinitions" }
 		)
 
 public class TestRunner {

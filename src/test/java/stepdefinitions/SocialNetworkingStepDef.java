@@ -1,4 +1,4 @@
-package stepdefinations;
+package stepdefinitions;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,45 +17,53 @@ public class SocialNetworkingStepDef {
 
 		@Given("^(post|comments|users) api URI$")
 		public void apiURI(String string) throws Throwable {
-			String baseUrl = Utils.getValueFromProp("baseurl").toString();
-			String apiEndPoint = Utils.getValueFromProp(string).toString();
-			apiURL = baseUrl + apiEndPoint;
-			log.info("API URL is '" + apiURL + "'");
+			//getting the base URL and storing in uri string variable
+			String uri = Utils.getValueFromProp("baseurl").toString();
+			//End Point (post, comments, userlist) and storing in String variable
+			String endPoint = Utils.getValueFromProp(string).toString();
+			//Concatenating uri and end point into apiURL 
+			apiURL = uri.concat(endPoint);
+			log.info("API URL is : '" + apiURL + "'");
 		}
 
 		@When("^(post|comments|users) api is passed with \"([^\"]*)\"$")
-		public void apiIsPassedWith(String resource, String params) throws Throwable {
+		public void apiPassedParams(String resource, String params) throws Throwable {
 			String[] parameterList = params.split(",");
 			Map<String, String> paramList = new HashMap<>();
+			//getting the parameters from features
 			for (String param : parameterList) {
 				paramList.put(param.split("=")[0].trim(), param.split("=")[1].trim());
 			}
+			//passing uri and params to the hit the api and get the response
 			RequestResponseSpec.runAPIRequest(apiURL, paramList);
-			log.info("Sent Request for '" + apiURL + "'");
+			log.info("Sent Request for API");
 		}
 
+		//Verifying the status code "200" 
 		@Then("^Verify (post|comments|users) api response code \"([^\"]*)\"$")
-		public void verify_comments_api_response_code(String resource, String code) throws Throwable {
+		public void verifyResponseCode(String resource, String code) throws Throwable {
 			int resCode = RequestResponseSpec.getAPIStatusCode();
-			log.info("The '" + resource + "' API returned '" + resCode + "'");
+			log.info("The API returned : '" + resCode + "'");
 			Assert.assertEquals(code, String.valueOf(resCode));
 		}
 
+		//Verifying the no. of responses received for given params
 		@Then("^Verify (post|comments|users) api response \"([^\"]*)\"$")
-		public void verify_post_api_response(String resource, String noOfResponses) throws Throwable {
+		public void verifyResponse(String resource, String noOfResponses) throws Throwable {
 			String actualCount = String.valueOf(RequestResponseSpec.getObjectsFromResponse().size());
 			Assert.assertEquals(actualCount, noOfResponses);
-			log.info("The '" + resource + "' response returned are as expected");
+			log.info("Response received as expected");
 		}
 
+		//Verifying the attributes for each api
 		@Then("^Verify (post|comments|users) response has with attributes$")
-		public void verify_users_response_has_with_attributes(String resource, DataTable attributes) throws Throwable {
+		public void verifyResponseAttributes(String resource, DataTable attributes) throws Throwable {
 			List<String> keyValues = attributes.transpose().asList(String.class);
 			Map<String, ?> postObject = RequestResponseSpec.getObjectsFromResponse().get(0);
 			boolean isPresent = true;
 			for (String key : keyValues) {
 				if (!postObject.containsKey(key)) {
-					log.info("'" + key + "' is not found in '" + resource + "' reponse");
+					log.info("'" + key + "' is not found in '" + resource + "' ");
 					isPresent = false;
 					break;
 				}
