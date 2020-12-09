@@ -1,0 +1,48 @@
+2020-12-09 14:05:55,647  INFO [main] Utils:41 - Property value is 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-09 14:05:55,650  INFO [main] Utils:41 - Property value is '/posts' for 'post'
+2020-12-09 14:05:55,650  INFO [main] SocialNetworkingStepDef:23 - API URL is 'https://jsonplaceholder.typicode.com/posts'
+2020-12-09 14:05:57,375  INFO [main] SocialNetworkingStepDef:34 - Sent Request for 'https://jsonplaceholder.typicode.com/posts'
+2020-12-09 14:05:57,377  INFO [main] RequestResponseSpec:38 - Successfully received status code from API
+2020-12-09 14:05:57,377  INFO [main] SocialNetworkingStepDef:40 - The 'post' API returned '200'
+2020-12-09 14:05:57,422  INFO [main] SocialNetworkingStepDef:48 - The 'post' response returned are as expected
+2020-12-09 14:05:57,424  INFO [main] SocialNetworkingStepDef:64 - Keys are present in response
+2020-12-09 14:05:57,427  INFO [main] Utils:41 - Property value is 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-09 14:05:57,428  INFO [main] Utils:41 - Property value is '/posts' for 'post'
+2020-12-09 14:05:57,428  INFO [main] SocialNetworkingStepDef:23 - API URL is 'https://jsonplaceholder.typicode.com/posts'
+2020-12-09 14:05:57,938  INFO [main] SocialNetworkingStepDef:34 - Sent Request for 'https://jsonplaceholder.typicode.com/posts'
+2020-12-09 14:05:57,939  INFO [main] RequestResponseSpec:38 - Successfully received status code from API
+2020-12-09 14:05:57,939  INFO [main] SocialNetworkingStepDef:40 - The 'post' API returned '200'
+2020-12-09 14:05:57,941  INFO [main] SocialNetworkingStepDef:48 - The 'post' response returned are as expected
+2020-12-09 14:05:57,942  INFO [main] SocialNetworkingStepDef:64 - Keys are present in response
+2020-12-09 14:05:57,947  INFO [main] Utils:41 - Property value is 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-09 14:05:57,948  INFO [main] Utils:41 - Property value is '/comments' for 'comments'
+2020-12-09 14:05:57,948  INFO [main] SocialNetworkingStepDef:23 - API URL is 'https://jsonplaceholder.typicode.com/comments'
+2020-12-09 14:05:58,402  INFO [main] SocialNetworkingStepDef:34 - Sent Request for 'https://jsonplaceholder.typicode.com/comments'
+2020-12-09 14:05:58,403  INFO [main] RequestResponseSpec:38 - Successfully received status code from API
+2020-12-09 14:05:58,403  INFO [main] SocialNetworkingStepDef:40 - The 'comments' API returned '200'
+2020-12-09 14:05:58,404  INFO [main] SocialNetworkingStepDef:48 - The 'comments' response returned are as expected
+2020-12-09 14:05:58,404  INFO [main] SocialNetworkingStepDef:64 - Keys are present in response
+2020-12-09 14:05:58,406  INFO [main] Utils:41 - Property value is 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-09 14:05:58,406  INFO [main] Utils:41 - Property value is '/comments' for 'comments'
+2020-12-09 14:05:58,406  INFO [main] SocialNetworkingStepDef:23 - API URL is 'https://jsonplaceholder.typicode.com/comments'
+2020-12-09 14:05:59,030  INFO [main] SocialNetworkingStepDef:34 - Sent Request for 'https://jsonplaceholder.typicode.com/comments'
+2020-12-09 14:05:59,032  INFO [main] RequestResponseSpec:38 - Successfully received status code from API
+2020-12-09 14:05:59,032  INFO [main] SocialNetworkingStepDef:40 - The 'comments' API returned '200'
+2020-12-09 14:05:59,033  INFO [main] SocialNetworkingStepDef:48 - The 'comments' response returned are as expected
+2020-12-09 14:05:59,034  INFO [main] SocialNetworkingStepDef:64 - Keys are present in response
+2020-12-09 14:05:59,036  INFO [main] Utils:41 - Property value is 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-09 14:05:59,037  INFO [main] Utils:41 - Property value is '/users' for 'users'
+2020-12-09 14:05:59,037  INFO [main] SocialNetworkingStepDef:23 - API URL is 'https://jsonplaceholder.typicode.com/users'
+2020-12-09 14:05:59,557  INFO [main] SocialNetworkingStepDef:34 - Sent Request for 'https://jsonplaceholder.typicode.com/users'
+2020-12-09 14:05:59,559  INFO [main] RequestResponseSpec:38 - Successfully received status code from API
+2020-12-09 14:05:59,559  INFO [main] SocialNetworkingStepDef:40 - The 'users' API returned '200'
+2020-12-09 14:05:59,561  INFO [main] SocialNetworkingStepDef:48 - The 'users' response returned are as expected
+2020-12-09 14:05:59,561  INFO [main] SocialNetworkingStepDef:64 - Keys are present in response
+2020-12-09 14:05:59,563  INFO [main] Utils:41 - Property value is 'https://jsonplaceholder.typicode.com' for 'baseurl'
+2020-12-09 14:05:59,563  INFO [main] Utils:41 - Property value is '/users' for 'users'
+2020-12-09 14:05:59,563  INFO [main] SocialNetworkingStepDef:23 - API URL is 'https://jsonplaceholder.typicode.com/users'
+2020-12-09 14:06:00,148  INFO [main] SocialNetworkingStepDef:34 - Sent Request for 'https://jsonplaceholder.typicode.com/users'
+2020-12-09 14:06:00,151  INFO [main] RequestResponseSpec:38 - Successfully received status code from API
+2020-12-09 14:06:00,151  INFO [main] SocialNetworkingStepDef:40 - The 'users' API returned '200'
+2020-12-09 14:06:00,154  INFO [main] SocialNetworkingStepDef:48 - The 'users' response returned are as expected
+2020-12-09 14:06:00,157  INFO [main] SocialNetworkingStepDef:64 - Keys are present in response
