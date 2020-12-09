@@ -16,14 +16,19 @@ public class Utils {
 	public static String getValueFromProp(String key) {
 		String value = null;
 		try {
-			String filePath = System.getProperty("user.dir") +"\\src\\test\\resources\\evnproperties\\env.properties";
+			String filePath = System.getProperty("user.dir") +"/src/test/resources/evnproperties/env.properties";
 			BufferedReader file=null;
 			file= new BufferedReader(new FileReader(filePath));
 			Properties props = new Properties();
 			props.load(file);
 			value = props.getProperty(key);
 			log.info("Property value is '" + value + "' for '" + key + "'");
-		} catch (Exception e) {
+		}
+		catch(NullPointerException e1)
+		{
+			log.error("Null Point Exception while reading : " +e1.getMessage());
+		}
+		catch (Exception e) {
 			log.error("Exception while reading'" + key + "'-" + e.getMessage());
 			e.printStackTrace();
 		}

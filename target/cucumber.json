@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 16,
+        "line": 17,
         "name": "Verify post api with different parameters",
         "description": "",
         "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;2",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 216986300,
+              "duration": 165513100,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "post api URI",
             "match": {
               "arguments": [
@@ -30,10 +30,10 @@
           },
           {
             "result": {
-              "duration": 1996572200,
+              "duration": 1834466601,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "post api is passed with \"id\u003d59\"",
             "match": {
               "arguments": [
@@ -55,10 +55,10 @@
           },
           {
             "result": {
-              "duration": 1452400,
+              "duration": 1369200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Verify post api response code \"200\"",
             "match": {
               "arguments": [
@@ -80,10 +80,10 @@
           },
           {
             "result": {
-              "duration": 48476000,
+              "duration": 37496900,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Verify post api response \"1\"",
             "match": {
               "arguments": [
@@ -105,10 +105,10 @@
           },
           {
             "result": {
-              "duration": 1641000,
+              "duration": 963000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Verify post response has with attributes",
             "match": {
               "arguments": [
@@ -124,33 +124,43 @@
                 "cells": [
                   "userId"
                 ],
-                "line": 9
+                "line": 10
               },
               {
                 "cells": [
                   "id"
                 ],
-                "line": 10
+                "line": 11
               },
               {
                 "cells": [
                   "title"
                 ],
-                "line": 11
+                "line": 12
               },
               {
                 "cells": [
                   "body"
                 ],
-                "line": 12
+                "line": 13
               }
             ],
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FirstAPI"
+          },
+          {
+            "line": 1,
+            "name": "@AllApiExecution"
+          }
         ]
       },
       {
-        "line": 17,
+        "line": 18,
         "name": "Verify post api with different parameters",
         "description": "",
         "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;3",
@@ -159,10 +169,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1209400,
+              "duration": 741800,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "post api URI",
             "match": {
               "arguments": [
@@ -177,10 +187,10 @@
           },
           {
             "result": {
-              "duration": 516993900,
+              "duration": 452477000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "post api is passed with \"userId\u003d6\"",
             "match": {
               "arguments": [
@@ -202,10 +212,10 @@
           },
           {
             "result": {
-              "duration": 1516900,
+              "duration": 328800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Verify post api response code \"200\"",
             "match": {
               "arguments": [
@@ -227,10 +237,10 @@
           },
           {
             "result": {
-              "duration": 2262900,
+              "duration": 988400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Verify post api response \"10\"",
             "match": {
               "arguments": [
@@ -252,10 +262,10 @@
           },
           {
             "result": {
-              "duration": 2746100,
+              "duration": 442600,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Verify post response has with attributes",
             "match": {
               "arguments": [
@@ -271,33 +281,43 @@
                 "cells": [
                   "userId"
                 ],
-                "line": 9
+                "line": 10
               },
               {
                 "cells": [
                   "id"
                 ],
-                "line": 10
+                "line": 11
               },
               {
                 "cells": [
                   "title"
                 ],
-                "line": 11
+                "line": 12
               },
               {
                 "cells": [
                   "body"
                 ],
-                "line": 12
+                "line": 13
               }
             ],
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FirstAPI"
+          },
+          {
+            "line": 1,
+            "name": "@AllApiExecution"
+          }
         ]
       },
       {
-        "line": 33,
+        "line": 34,
         "name": "Verify comments api with different parameters",
         "description": "",
         "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;2",
@@ -306,10 +326,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1587600,
+              "duration": 675899,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "comments api URI",
             "match": {
               "arguments": [
@@ -324,10 +344,10 @@
           },
           {
             "result": {
-              "duration": 481844700,
+              "duration": 402738099,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "comments api is passed with \"email\u003dNikita@garfield.biz\"",
             "match": {
               "arguments": [
@@ -349,10 +369,10 @@
           },
           {
             "result": {
-              "duration": 290000,
+              "duration": 379300,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "Verify comments api response code \"200\"",
             "match": {
               "arguments": [
@@ -374,10 +394,10 @@
           },
           {
             "result": {
-              "duration": 369500,
+              "duration": 807100,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "Verify comments api response \"1\"",
             "match": {
               "arguments": [
@@ -399,10 +419,10 @@
           },
           {
             "result": {
-              "duration": 351200,
+              "duration": 376599,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "Verify comments response has with attributes",
             "match": {
               "arguments": [
@@ -418,39 +438,49 @@
                 "cells": [
                   "postId"
                 ],
-                "line": 25
+                "line": 26
               },
               {
                 "cells": [
                   "id"
                 ],
-                "line": 26
+                "line": 27
               },
               {
                 "cells": [
                   "name"
                 ],
-                "line": 27
+                "line": 28
               },
               {
                 "cells": [
                   "email"
                 ],
-                "line": 28
+                "line": 29
               },
               {
                 "cells": [
                   "body"
                 ],
-                "line": 29
+                "line": 30
               }
             ],
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SecondAPI"
+          },
+          {
+            "line": 1,
+            "name": "@AllApiExecution"
+          }
         ]
       },
       {
-        "line": 34,
+        "line": 35,
         "name": "Verify comments api with different parameters",
         "description": "",
         "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;3",
@@ -459,10 +489,10 @@
         "steps": [
           {
             "result": {
-              "duration": 667000,
+              "duration": 961600,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "comments api URI",
             "match": {
               "arguments": [
@@ -477,10 +507,10 @@
           },
           {
             "result": {
-              "duration": 459348000,
+              "duration": 444032899,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "comments api is passed with \"postId\u003d3\"",
             "match": {
               "arguments": [
@@ -502,10 +532,10 @@
           },
           {
             "result": {
-              "duration": 793400,
+              "duration": 592200,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "Verify comments api response code \"200\"",
             "match": {
               "arguments": [
@@ -527,10 +557,10 @@
           },
           {
             "result": {
-              "duration": 1407100,
+              "duration": 1067399,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "Verify comments api response \"5\"",
             "match": {
               "arguments": [
@@ -552,10 +582,10 @@
           },
           {
             "result": {
-              "duration": 1435800,
+              "duration": 646100,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "Verify comments response has with attributes",
             "match": {
               "arguments": [
@@ -571,39 +601,49 @@
                 "cells": [
                   "postId"
                 ],
-                "line": 25
+                "line": 26
               },
               {
                 "cells": [
                   "id"
                 ],
-                "line": 26
+                "line": 27
               },
               {
                 "cells": [
                   "name"
                 ],
-                "line": 27
+                "line": 28
               },
               {
                 "cells": [
                   "email"
                 ],
-                "line": 28
+                "line": 29
               },
               {
                 "cells": [
                   "body"
                 ],
-                "line": 29
+                "line": 30
               }
             ],
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SecondAPI"
+          },
+          {
+            "line": 1,
+            "name": "@AllApiExecution"
+          }
         ]
       },
       {
-        "line": 52,
+        "line": 53,
         "name": "Verify users api with different parameters",
         "description": "",
         "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;2",
@@ -612,10 +652,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1129600,
+              "duration": 652999,
               "status": "passed"
             },
-            "line": 37,
+            "line": 38,
             "name": "users api URI",
             "match": {
               "arguments": [
@@ -630,10 +670,10 @@
           },
           {
             "result": {
-              "duration": 492040000,
+              "duration": 422679700,
               "status": "passed"
             },
-            "line": 38,
+            "line": 39,
             "name": "users api is passed with \"website\u003danastasia.net\"",
             "match": {
               "arguments": [
@@ -655,10 +695,10 @@
           },
           {
             "result": {
-              "duration": 282700,
+              "duration": 1392100,
               "status": "passed"
             },
-            "line": 39,
+            "line": 40,
             "name": "Verify users api response code \"200\"",
             "match": {
               "arguments": [
@@ -680,10 +720,10 @@
           },
           {
             "result": {
-              "duration": 427200,
+              "duration": 2198900,
               "status": "passed"
             },
-            "line": 40,
+            "line": 41,
             "name": "Verify users api response \"1\"",
             "match": {
               "arguments": [
@@ -705,10 +745,10 @@
           },
           {
             "result": {
-              "duration": 277800,
+              "duration": 976799,
               "status": "passed"
             },
-            "line": 41,
+            "line": 42,
             "name": "Verify users response has with attributes",
             "match": {
               "arguments": [
@@ -724,51 +764,61 @@
                 "cells": [
                   "id"
                 ],
-                "line": 42
+                "line": 43
               },
               {
                 "cells": [
                   "name"
                 ],
-                "line": 43
+                "line": 44
               },
               {
                 "cells": [
                   "phone"
                 ],
-                "line": 44
+                "line": 45
               },
               {
                 "cells": [
                   "email"
                 ],
-                "line": 45
+                "line": 46
               },
               {
                 "cells": [
                   "website"
                 ],
-                "line": 46
+                "line": 47
               },
               {
                 "cells": [
                   "company"
                 ],
-                "line": 47
+                "line": 48
               },
               {
                 "cells": [
                   "address"
                 ],
-                "line": 48
+                "line": 49
               }
             ],
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@AllApiExecution"
+          },
+          {
+            "line": 36,
+            "name": "@ThirdAPI"
+          }
         ]
       },
       {
-        "line": 53,
+        "line": 54,
         "name": "Verify users api with different parameters",
         "description": "",
         "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;3",
@@ -777,10 +827,10 @@
         "steps": [
           {
             "result": {
-              "duration": 686300,
+              "duration": 2206500,
               "status": "passed"
             },
-            "line": 37,
+            "line": 38,
             "name": "users api URI",
             "match": {
               "arguments": [
@@ -795,10 +845,10 @@
           },
           {
             "result": {
-              "duration": 457746100,
+              "duration": 432644899,
               "status": "passed"
             },
-            "line": 38,
+            "line": 39,
             "name": "users api is passed with \"id\u003d9\"",
             "match": {
               "arguments": [
@@ -820,10 +870,10 @@
           },
           {
             "result": {
-              "duration": 372800,
+              "duration": 276501,
               "status": "passed"
             },
-            "line": 39,
+            "line": 40,
             "name": "Verify users api response code \"200\"",
             "match": {
               "arguments": [
@@ -845,10 +895,10 @@
           },
           {
             "result": {
-              "duration": 516100,
+              "duration": 515700,
               "status": "passed"
             },
-            "line": 40,
+            "line": 41,
             "name": "Verify users api response \"1\"",
             "match": {
               "arguments": [
@@ -870,10 +920,10 @@
           },
           {
             "result": {
-              "duration": 330000,
+              "duration": 393601,
               "status": "passed"
             },
-            "line": 41,
+            "line": 42,
             "name": "Verify users response has with attributes",
             "match": {
               "arguments": [
@@ -889,46 +939,56 @@
                 "cells": [
                   "id"
                 ],
-                "line": 42
+                "line": 43
               },
               {
                 "cells": [
                   "name"
                 ],
-                "line": 43
+                "line": 44
               },
               {
                 "cells": [
                   "phone"
                 ],
-                "line": 44
+                "line": 45
               },
               {
                 "cells": [
                   "email"
                 ],
-                "line": 45
+                "line": 46
               },
               {
                 "cells": [
                   "website"
                 ],
-                "line": 46
+                "line": 47
               },
               {
                 "cells": [
                   "company"
                 ],
-                "line": 47
+                "line": 48
               },
               {
                 "cells": [
                   "address"
                 ],
-                "line": 48
+                "line": 49
               }
             ],
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@AllApiExecution"
+          },
+          {
+            "line": 36,
+            "name": "@ThirdAPI"
           }
         ]
       }
@@ -937,6 +997,12 @@
     "description": "",
     "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/socialNetworkingServices.feature"
+    "uri": "src/test/resources/features/socialNetworkingServices.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AllApiExecution"
+      }
+    ]
   }
 ]

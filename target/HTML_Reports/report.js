@@ -1,72 +1,84 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/socialNetworkingServices.feature");
 formatter.feature({
-  "line": 1,
+  "line": 2,
   "name": "POST, GET APIs validation with paramenters passed and validate the response",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    }
+  ]
 });
 formatter.scenarioOutline({
-  "line": 3,
+  "line": 4,
   "name": "Verify post api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@FirstAPI"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "post api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "post api is passed with \"\u003cparams\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "Verify post api response code \"\u003cstatusCode\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "Verify post api response \"\u003cnoOfResponses\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "Verify post response has with attributes",
   "rows": [
     {
       "cells": [
         "userId"
       ],
-      "line": 9
+      "line": 10
     },
     {
       "cells": [
         "id"
       ],
-      "line": 10
+      "line": 11
     },
     {
       "cells": [
         "title"
       ],
-      "line": 11
+      "line": 12
     },
     {
       "cells": [
         "body"
       ],
-      "line": 12
+      "line": 13
     }
   ],
   "keyword": "And "
 });
 formatter.examples({
-  "line": 14,
+  "line": 15,
   "name": "",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;",
@@ -77,7 +89,7 @@ formatter.examples({
         "statusCode",
         "noOfResponses"
       ],
-      "line": 15,
+      "line": 16,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;1"
     },
     {
@@ -86,7 +98,7 @@ formatter.examples({
         "200",
         "1"
       ],
-      "line": 16,
+      "line": 17,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;2"
     },
     {
@@ -95,27 +107,37 @@ formatter.examples({
         "200",
         "10"
       ],
-      "line": 17,
+      "line": 18,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 17,
   "name": "Verify post api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@FirstAPI"
+    },
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "post api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "post api is passed with \"id\u003d59\"",
   "matchedColumns": [
     0
@@ -123,7 +145,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "Verify post api response code \"200\"",
   "matchedColumns": [
     1
@@ -131,7 +153,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "Verify post api response \"1\"",
   "matchedColumns": [
     2
@@ -139,32 +161,32 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "Verify post response has with attributes",
   "rows": [
     {
       "cells": [
         "userId"
       ],
-      "line": 9
+      "line": 10
     },
     {
       "cells": [
         "id"
       ],
-      "line": 10
+      "line": 11
     },
     {
       "cells": [
         "title"
       ],
-      "line": 11
+      "line": 12
     },
     {
       "cells": [
         "body"
       ],
-      "line": 12
+      "line": 13
     }
   ],
   "keyword": "And "
@@ -179,7 +201,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 216986300,
+  "duration": 165513100,
   "status": "passed"
 });
 formatter.match({
@@ -196,7 +218,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 1996572200,
+  "duration": 1834466601,
   "status": "passed"
 });
 formatter.match({
@@ -213,7 +235,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1452400,
+  "duration": 1369200,
   "status": "passed"
 });
 formatter.match({
@@ -230,7 +252,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 48476000,
+  "duration": 37496900,
   "status": "passed"
 });
 formatter.match({
@@ -243,24 +265,34 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1641000,
+  "duration": 963000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 18,
   "name": "Verify post api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-post-api-with-different-parameters;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@FirstAPI"
+    },
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "post api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "post api is passed with \"userId\u003d6\"",
   "matchedColumns": [
     0
@@ -268,7 +300,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "Verify post api response code \"200\"",
   "matchedColumns": [
     1
@@ -276,7 +308,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "Verify post api response \"10\"",
   "matchedColumns": [
     2
@@ -284,32 +316,32 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "Verify post response has with attributes",
   "rows": [
     {
       "cells": [
         "userId"
       ],
-      "line": 9
+      "line": 10
     },
     {
       "cells": [
         "id"
       ],
-      "line": 10
+      "line": 11
     },
     {
       "cells": [
         "title"
       ],
-      "line": 11
+      "line": 12
     },
     {
       "cells": [
         "body"
       ],
-      "line": 12
+      "line": 13
     }
   ],
   "keyword": "And "
@@ -324,7 +356,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 1209400,
+  "duration": 741800,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +373,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 516993900,
+  "duration": 452477000,
   "status": "passed"
 });
 formatter.match({
@@ -358,7 +390,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1516900,
+  "duration": 328800,
   "status": "passed"
 });
 formatter.match({
@@ -375,7 +407,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 2262900,
+  "duration": 988400,
   "status": "passed"
 });
 formatter.match({
@@ -388,76 +420,82 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 2746100,
+  "duration": 442600,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 19,
+  "line": 20,
   "name": "Verify comments api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@SecondAPI"
+    }
+  ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "comments api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "comments api is passed with \"\u003cparams\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "Verify comments api response code \"\u003cstatusCode\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "Verify comments api response \"\u003cnoOfResponses\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "Verify comments response has with attributes",
   "rows": [
     {
       "cells": [
         "postId"
       ],
-      "line": 25
+      "line": 26
     },
     {
       "cells": [
         "id"
       ],
-      "line": 26
+      "line": 27
     },
     {
       "cells": [
         "name"
       ],
-      "line": 27
+      "line": 28
     },
     {
       "cells": [
         "email"
       ],
-      "line": 28
+      "line": 29
     },
     {
       "cells": [
         "body"
       ],
-      "line": 29
+      "line": 30
     }
   ],
   "keyword": "And "
 });
 formatter.examples({
-  "line": 31,
+  "line": 32,
   "name": "",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;",
@@ -468,7 +506,7 @@ formatter.examples({
         "statusCode",
         "noOfResponses"
       ],
-      "line": 32,
+      "line": 33,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;1"
     },
     {
@@ -477,7 +515,7 @@ formatter.examples({
         "200",
         "1"
       ],
-      "line": 33,
+      "line": 34,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;2"
     },
     {
@@ -486,27 +524,37 @@ formatter.examples({
         "200",
         "5"
       ],
-      "line": 34,
+      "line": 35,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 33,
+  "line": 34,
   "name": "Verify comments api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@SecondAPI"
+    },
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    }
+  ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "comments api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "comments api is passed with \"email\u003dNikita@garfield.biz\"",
   "matchedColumns": [
     0
@@ -514,7 +562,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "Verify comments api response code \"200\"",
   "matchedColumns": [
     1
@@ -522,7 +570,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "Verify comments api response \"1\"",
   "matchedColumns": [
     2
@@ -530,38 +578,38 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "Verify comments response has with attributes",
   "rows": [
     {
       "cells": [
         "postId"
       ],
-      "line": 25
+      "line": 26
     },
     {
       "cells": [
         "id"
       ],
-      "line": 26
+      "line": 27
     },
     {
       "cells": [
         "name"
       ],
-      "line": 27
+      "line": 28
     },
     {
       "cells": [
         "email"
       ],
-      "line": 28
+      "line": 29
     },
     {
       "cells": [
         "body"
       ],
-      "line": 29
+      "line": 30
     }
   ],
   "keyword": "And "
@@ -576,7 +624,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 1587600,
+  "duration": 675899,
   "status": "passed"
 });
 formatter.match({
@@ -593,7 +641,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 481844700,
+  "duration": 402738099,
   "status": "passed"
 });
 formatter.match({
@@ -610,7 +658,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 290000,
+  "duration": 379300,
   "status": "passed"
 });
 formatter.match({
@@ -627,7 +675,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 369500,
+  "duration": 807100,
   "status": "passed"
 });
 formatter.match({
@@ -640,24 +688,34 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 351200,
+  "duration": 376599,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 34,
+  "line": 35,
   "name": "Verify comments api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-comments-api-with-different-parameters;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@SecondAPI"
+    },
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    }
+  ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "comments api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "comments api is passed with \"postId\u003d3\"",
   "matchedColumns": [
     0
@@ -665,7 +723,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "Verify comments api response code \"200\"",
   "matchedColumns": [
     1
@@ -673,7 +731,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
+  "line": 24,
   "name": "Verify comments api response \"5\"",
   "matchedColumns": [
     2
@@ -681,38 +739,38 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 25,
   "name": "Verify comments response has with attributes",
   "rows": [
     {
       "cells": [
         "postId"
       ],
-      "line": 25
+      "line": 26
     },
     {
       "cells": [
         "id"
       ],
-      "line": 26
+      "line": 27
     },
     {
       "cells": [
         "name"
       ],
-      "line": 27
+      "line": 28
     },
     {
       "cells": [
         "email"
       ],
-      "line": 28
+      "line": 29
     },
     {
       "cells": [
         "body"
       ],
-      "line": 29
+      "line": 30
     }
   ],
   "keyword": "And "
@@ -727,7 +785,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 667000,
+  "duration": 961600,
   "status": "passed"
 });
 formatter.match({
@@ -744,7 +802,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 459348000,
+  "duration": 444032899,
   "status": "passed"
 });
 formatter.match({
@@ -761,7 +819,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 793400,
+  "duration": 592200,
   "status": "passed"
 });
 formatter.match({
@@ -778,7 +836,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 1407100,
+  "duration": 1067399,
   "status": "passed"
 });
 formatter.match({
@@ -791,88 +849,94 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1435800,
+  "duration": 646100,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 36,
+  "line": 37,
   "name": "Verify users api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@ThirdAPI"
+    }
+  ]
 });
 formatter.step({
-  "line": 37,
+  "line": 38,
   "name": "users api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 38,
+  "line": 39,
   "name": "users api is passed with \"\u003cparams\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "Verify users api response code \"\u003cstatusCode\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 40,
+  "line": 41,
   "name": "Verify users api response \"\u003cnoOfResponses\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 41,
+  "line": 42,
   "name": "Verify users response has with attributes",
   "rows": [
     {
       "cells": [
         "id"
       ],
-      "line": 42
+      "line": 43
     },
     {
       "cells": [
         "name"
       ],
-      "line": 43
+      "line": 44
     },
     {
       "cells": [
         "phone"
       ],
-      "line": 44
+      "line": 45
     },
     {
       "cells": [
         "email"
       ],
-      "line": 45
+      "line": 46
     },
     {
       "cells": [
         "website"
       ],
-      "line": 46
+      "line": 47
     },
     {
       "cells": [
         "company"
       ],
-      "line": 47
+      "line": 48
     },
     {
       "cells": [
         "address"
       ],
-      "line": 48
+      "line": 49
     }
   ],
   "keyword": "And "
 });
 formatter.examples({
-  "line": 50,
+  "line": 51,
   "name": "",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;",
@@ -883,7 +947,7 @@ formatter.examples({
         "statusCode",
         "noOfResponses"
       ],
-      "line": 51,
+      "line": 52,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;1"
     },
     {
@@ -892,7 +956,7 @@ formatter.examples({
         "200",
         "1"
       ],
-      "line": 52,
+      "line": 53,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;2"
     },
     {
@@ -901,27 +965,37 @@ formatter.examples({
         "200",
         "1"
       ],
-      "line": 53,
+      "line": 54,
       "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 52,
+  "line": 53,
   "name": "Verify users api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    },
+    {
+      "line": 36,
+      "name": "@ThirdAPI"
+    }
+  ]
 });
 formatter.step({
-  "line": 37,
+  "line": 38,
   "name": "users api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 38,
+  "line": 39,
   "name": "users api is passed with \"website\u003danastasia.net\"",
   "matchedColumns": [
     0
@@ -929,7 +1003,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "Verify users api response code \"200\"",
   "matchedColumns": [
     1
@@ -937,7 +1011,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 40,
+  "line": 41,
   "name": "Verify users api response \"1\"",
   "matchedColumns": [
     2
@@ -945,50 +1019,50 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 41,
+  "line": 42,
   "name": "Verify users response has with attributes",
   "rows": [
     {
       "cells": [
         "id"
       ],
-      "line": 42
+      "line": 43
     },
     {
       "cells": [
         "name"
       ],
-      "line": 43
+      "line": 44
     },
     {
       "cells": [
         "phone"
       ],
-      "line": 44
+      "line": 45
     },
     {
       "cells": [
         "email"
       ],
-      "line": 45
+      "line": 46
     },
     {
       "cells": [
         "website"
       ],
-      "line": 46
+      "line": 47
     },
     {
       "cells": [
         "company"
       ],
-      "line": 47
+      "line": 48
     },
     {
       "cells": [
         "address"
       ],
-      "line": 48
+      "line": 49
     }
   ],
   "keyword": "And "
@@ -1003,7 +1077,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 1129600,
+  "duration": 652999,
   "status": "passed"
 });
 formatter.match({
@@ -1020,7 +1094,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 492040000,
+  "duration": 422679700,
   "status": "passed"
 });
 formatter.match({
@@ -1037,7 +1111,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 282700,
+  "duration": 1392100,
   "status": "passed"
 });
 formatter.match({
@@ -1054,7 +1128,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 427200,
+  "duration": 2198900,
   "status": "passed"
 });
 formatter.match({
@@ -1067,24 +1141,34 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 277800,
+  "duration": 976799,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 53,
+  "line": 54,
   "name": "Verify users api with different parameters",
   "description": "",
   "id": "post,-get-apis-validation-with-paramenters-passed-and-validate-the-response;verify-users-api-with-different-parameters;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@AllApiExecution"
+    },
+    {
+      "line": 36,
+      "name": "@ThirdAPI"
+    }
+  ]
 });
 formatter.step({
-  "line": 37,
+  "line": 38,
   "name": "users api URI",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 38,
+  "line": 39,
   "name": "users api is passed with \"id\u003d9\"",
   "matchedColumns": [
     0
@@ -1092,7 +1176,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "Verify users api response code \"200\"",
   "matchedColumns": [
     1
@@ -1100,7 +1184,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 40,
+  "line": 41,
   "name": "Verify users api response \"1\"",
   "matchedColumns": [
     2
@@ -1108,50 +1192,50 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 41,
+  "line": 42,
   "name": "Verify users response has with attributes",
   "rows": [
     {
       "cells": [
         "id"
       ],
-      "line": 42
+      "line": 43
     },
     {
       "cells": [
         "name"
       ],
-      "line": 43
+      "line": 44
     },
     {
       "cells": [
         "phone"
       ],
-      "line": 44
+      "line": 45
     },
     {
       "cells": [
         "email"
       ],
-      "line": 45
+      "line": 46
     },
     {
       "cells": [
         "website"
       ],
-      "line": 46
+      "line": 47
     },
     {
       "cells": [
         "company"
       ],
-      "line": 47
+      "line": 48
     },
     {
       "cells": [
         "address"
       ],
-      "line": 48
+      "line": 49
     }
   ],
   "keyword": "And "
@@ -1166,7 +1250,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 686300,
+  "duration": 2206500,
   "status": "passed"
 });
 formatter.match({
@@ -1183,7 +1267,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 457746100,
+  "duration": 432644899,
   "status": "passed"
 });
 formatter.match({
@@ -1200,7 +1284,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 372800,
+  "duration": 276501,
   "status": "passed"
 });
 formatter.match({
@@ -1217,7 +1301,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 516100,
+  "duration": 515700,
   "status": "passed"
 });
 formatter.match({
@@ -1230,7 +1314,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 330000,
+  "duration": 393601,
   "status": "passed"
 });
 });

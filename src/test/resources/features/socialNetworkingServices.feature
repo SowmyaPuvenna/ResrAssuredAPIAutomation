@@ -1,5 +1,6 @@
+@AllApiExecution
 Feature: POST, GET APIs validation with paramenters passed and validate the response 
-
+@FirstAPI
 Scenario Outline: Verify post api with different parameters 
 	Given post api URI 
 	When post api is passed with "<params>" 
@@ -15,7 +16,7 @@ Scenario Outline: Verify post api with different parameters
 		|params    |statusCode|noOfResponses| 
 		|id=59     |200       |1			|
 		|userId=6  |200       |10           |
-		
+@SecondAPI	
 Scenario Outline: Verify comments api with different parameters 
 	Given comments api URI 
 	When comments api is passed with "<params>" 
@@ -32,7 +33,7 @@ Scenario Outline: Verify comments api with different parameters
 		|params					      |statusCode|noOfResponses| 
 		|email=Nikita@garfield.biz    |200       |1			   |
 		|postId=3					  |200       |5            |
-		
+@ThirdAPI		
 Scenario Outline: Verify users api with different parameters 
 	Given users api URI 
 	When users api is passed with "<params>" 
