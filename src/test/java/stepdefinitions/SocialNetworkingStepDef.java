@@ -28,12 +28,8 @@ public class SocialNetworkingStepDef {
 
 		@When("^(post|comments|users) api is passed with \"([^\"]*)\"$")
 		public void apiPassedParams(String resource, String params) throws Throwable {
-			String[] parameterList = params.split(",");
 			Map<String, String> paramList = new HashMap<>();
-			//getting the parameters from features
-			for (String param : parameterList) {
-				paramList.put(param.split("=")[0].trim(), param.split("=")[1].trim());
-			}
+			paramList.put(params.split("=")[0].trim(), params.split("=")[1].trim());
 			//passing uri and params to the hit the api and get the response
 			RequestResponseSpec.runAPIRequest(apiURL, paramList);
 			log.info("Sent Request for API");
