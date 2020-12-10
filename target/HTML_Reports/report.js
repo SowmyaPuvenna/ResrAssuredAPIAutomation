@@ -201,7 +201,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 303223400,
+  "duration": 255563000,
   "status": "passed"
 });
 formatter.match({
@@ -218,7 +218,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 3250559300,
+  "duration": 2900766100,
   "status": "passed"
 });
 formatter.match({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 6516000,
+  "duration": 3924200,
   "status": "passed"
 });
 formatter.match({
@@ -252,7 +252,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 177517800,
+  "duration": 74692600,
   "status": "passed"
 });
 formatter.match({
@@ -265,7 +265,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 3935200,
+  "duration": 1634000,
   "status": "passed"
 });
 formatter.scenario({
@@ -356,7 +356,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 4199000,
+  "duration": 1200100,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 1275578100,
+  "duration": 691994600,
   "status": "passed"
 });
 formatter.match({
@@ -390,7 +390,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1968200,
+  "duration": 2518700,
   "status": "passed"
 });
 formatter.match({
@@ -407,7 +407,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 4939400,
+  "duration": 5024200,
   "status": "passed"
 });
 formatter.match({
@@ -420,7 +420,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 2313000,
+  "duration": 2250500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -624,7 +624,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 3510900,
+  "duration": 3210100,
   "status": "passed"
 });
 formatter.match({
@@ -641,7 +641,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 1070246500,
+  "duration": 671589300,
   "status": "passed"
 });
 formatter.match({
@@ -658,7 +658,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1535200,
+  "duration": 1511000,
   "status": "passed"
 });
 formatter.match({
@@ -675,7 +675,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 1792400,
+  "duration": 1784500,
   "status": "passed"
 });
 formatter.match({
@@ -688,7 +688,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1583100,
+  "duration": 1647500,
   "status": "passed"
 });
 formatter.scenario({
@@ -785,7 +785,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 3041300,
+  "duration": 3171700,
   "status": "passed"
 });
 formatter.match({
@@ -802,7 +802,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 1103020300,
+  "duration": 651901300,
   "status": "passed"
 });
 formatter.match({
@@ -819,7 +819,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1520900,
+  "duration": 2325500,
   "status": "passed"
 });
 formatter.match({
@@ -836,7 +836,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 2326800,
+  "duration": 3537100,
   "status": "passed"
 });
 formatter.match({
@@ -849,7 +849,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 2819400,
+  "duration": 3790400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1077,7 +1077,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 3043400,
+  "duration": 4575600,
   "status": "passed"
 });
 formatter.match({
@@ -1094,7 +1094,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 987736500,
+  "duration": 597642700,
   "status": "passed"
 });
 formatter.match({
@@ -1111,7 +1111,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1373600,
+  "duration": 1629400,
   "status": "passed"
 });
 formatter.match({
@@ -1128,7 +1128,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 2056500,
+  "duration": 2374100,
   "status": "passed"
 });
 formatter.match({
@@ -1141,7 +1141,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1386600,
+  "duration": 1600300,
   "status": "passed"
 });
 formatter.scenario({
@@ -1250,7 +1250,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 3091300,
+  "duration": 3843300,
   "status": "passed"
 });
 formatter.match({
@@ -1267,7 +1267,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 1635215800,
+  "duration": 643039200,
   "status": "passed"
 });
 formatter.match({
@@ -1284,7 +1284,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1434500,
+  "duration": 1376200,
   "status": "passed"
 });
 formatter.match({
@@ -1301,7 +1301,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 1875800,
+  "duration": 1723600,
   "status": "passed"
 });
 formatter.match({
@@ -1314,7 +1314,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1370900,
+  "duration": 1328000,
   "status": "passed"
 });
 });
