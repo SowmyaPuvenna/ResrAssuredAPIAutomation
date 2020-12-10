@@ -9,16 +9,16 @@ import cucumber.api.CucumberOptions;
 @RunWith(Cucumber.class)
 
 /*Inside tags, we can user 
-@AllApiExecution - To execute all the Test Cases
-@FirstAPI - To execute First One
-@SecondAPI - To execute Second One
-@ThirdAPI - To execute Third One*/
+@apiservtests - To execute all the Test Cases
+@firsttest - To execute First One
+@secondtest - To execute Second One
+@thirdtest - To execute Third One*/
 
 
 @CucumberOptions(
 		plugin = { "html:target/HTML_Reports/", "json:target/cucumber.json"}, 
 		features = ".", glue = {"stepdefinitions" },
-		tags= {"@AllApiExecution"}
+		tags= {"@apiservtests"}
 		)
 
 public class TestRunner {
@@ -26,7 +26,7 @@ public class TestRunner {
 
 	@BeforeClass
 	public static void startTest() {
-		log.info("------------Start for Test------------------------------------------");	
+		log.info("------------Start of Test------------------------------------------");	
 	}
 
 	@AfterClass

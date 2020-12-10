@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 150757701,
+              "duration": 303223400,
               "status": "passed"
             },
             "line": 5,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 1781783100,
+              "duration": 3250559300,
               "status": "passed"
             },
             "line": 6,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 2145399,
+              "duration": 6516000,
               "status": "passed"
             },
             "line": 7,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 42485100,
+              "duration": 177517800,
               "status": "passed"
             },
             "line": 8,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 1440900,
+              "duration": 3935200,
               "status": "passed"
             },
             "line": 9,
@@ -150,12 +150,12 @@
         ],
         "tags": [
           {
-            "line": 3,
-            "name": "@FirstAPI"
+            "line": 1,
+            "name": "@apiservtests"
           },
           {
-            "line": 1,
-            "name": "@AllApiExecution"
+            "line": 3,
+            "name": "@firsttest"
           }
         ]
       },
@@ -169,7 +169,7 @@
         "steps": [
           {
             "result": {
-              "duration": 885500,
+              "duration": 4199000,
               "status": "passed"
             },
             "line": 5,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 511755799,
+              "duration": 1275578100,
               "status": "passed"
             },
             "line": 6,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 1824001,
+              "duration": 1968200,
               "status": "passed"
             },
             "line": 7,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 3394700,
+              "duration": 4939400,
               "status": "passed"
             },
             "line": 8,
@@ -262,7 +262,7 @@
           },
           {
             "result": {
-              "duration": 1153099,
+              "duration": 2313000,
               "status": "passed"
             },
             "line": 9,
@@ -307,12 +307,12 @@
         ],
         "tags": [
           {
-            "line": 3,
-            "name": "@FirstAPI"
+            "line": 1,
+            "name": "@apiservtests"
           },
           {
-            "line": 1,
-            "name": "@AllApiExecution"
+            "line": 3,
+            "name": "@firsttest"
           }
         ]
       },
@@ -326,7 +326,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1417100,
+              "duration": 3510900,
               "status": "passed"
             },
             "line": 21,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 551042600,
+              "duration": 1070246500,
               "status": "passed"
             },
             "line": 22,
@@ -369,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 334700,
+              "duration": 1535200,
               "status": "passed"
             },
             "line": 23,
@@ -394,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 438801,
+              "duration": 1792400,
               "status": "passed"
             },
             "line": 24,
@@ -419,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 324600,
+              "duration": 1583100,
               "status": "passed"
             },
             "line": 25,
@@ -470,12 +470,12 @@
         ],
         "tags": [
           {
-            "line": 19,
-            "name": "@SecondAPI"
+            "line": 1,
+            "name": "@apiservtests"
           },
           {
-            "line": 1,
-            "name": "@AllApiExecution"
+            "line": 19,
+            "name": "@secondtest"
           }
         ]
       },
@@ -489,7 +489,7 @@
         "steps": [
           {
             "result": {
-              "duration": 596100,
+              "duration": 3041300,
               "status": "passed"
             },
             "line": 21,
@@ -507,7 +507,7 @@
           },
           {
             "result": {
-              "duration": 610162000,
+              "duration": 1103020300,
               "status": "passed"
             },
             "line": 22,
@@ -532,7 +532,7 @@
           },
           {
             "result": {
-              "duration": 497100,
+              "duration": 1520900,
               "status": "passed"
             },
             "line": 23,
@@ -557,7 +557,7 @@
           },
           {
             "result": {
-              "duration": 513300,
+              "duration": 2326800,
               "status": "passed"
             },
             "line": 24,
@@ -582,7 +582,7 @@
           },
           {
             "result": {
-              "duration": 549901,
+              "duration": 2819400,
               "status": "passed"
             },
             "line": 25,
@@ -633,12 +633,12 @@
         ],
         "tags": [
           {
-            "line": 19,
-            "name": "@SecondAPI"
+            "line": 1,
+            "name": "@apiservtests"
           },
           {
-            "line": 1,
-            "name": "@AllApiExecution"
+            "line": 19,
+            "name": "@secondtest"
           }
         ]
       },
@@ -652,7 +652,7 @@
         "steps": [
           {
             "result": {
-              "duration": 628400,
+              "duration": 3043400,
               "status": "passed"
             },
             "line": 38,
@@ -670,7 +670,7 @@
           },
           {
             "result": {
-              "duration": 418256500,
+              "duration": 987736500,
               "status": "passed"
             },
             "line": 39,
@@ -695,7 +695,7 @@
           },
           {
             "result": {
-              "duration": 306400,
+              "duration": 1373600,
               "status": "passed"
             },
             "line": 40,
@@ -720,7 +720,7 @@
           },
           {
             "result": {
-              "duration": 498000,
+              "duration": 2056500,
               "status": "passed"
             },
             "line": 41,
@@ -745,7 +745,7 @@
           },
           {
             "result": {
-              "duration": 342000,
+              "duration": 1386600,
               "status": "passed"
             },
             "line": 42,
@@ -809,11 +809,11 @@
         "tags": [
           {
             "line": 1,
-            "name": "@AllApiExecution"
+            "name": "@apiservtests"
           },
           {
             "line": 36,
-            "name": "@ThirdAPI"
+            "name": "@thirdtest"
           }
         ]
       },
@@ -827,7 +827,7 @@
         "steps": [
           {
             "result": {
-              "duration": 769600,
+              "duration": 3091300,
               "status": "passed"
             },
             "line": 38,
@@ -845,7 +845,7 @@
           },
           {
             "result": {
-              "duration": 485077600,
+              "duration": 1635215800,
               "status": "passed"
             },
             "line": 39,
@@ -870,7 +870,7 @@
           },
           {
             "result": {
-              "duration": 352300,
+              "duration": 1434500,
               "status": "passed"
             },
             "line": 40,
@@ -895,7 +895,7 @@
           },
           {
             "result": {
-              "duration": 480999,
+              "duration": 1875800,
               "status": "passed"
             },
             "line": 41,
@@ -920,7 +920,7 @@
           },
           {
             "result": {
-              "duration": 506600,
+              "duration": 1370900,
               "status": "passed"
             },
             "line": 42,
@@ -984,11 +984,11 @@
         "tags": [
           {
             "line": 1,
-            "name": "@AllApiExecution"
+            "name": "@apiservtests"
           },
           {
             "line": 36,
-            "name": "@ThirdAPI"
+            "name": "@thirdtest"
           }
         ]
       }
@@ -1001,7 +1001,7 @@
     "tags": [
       {
         "line": 1,
-        "name": "@AllApiExecution"
+        "name": "@apiservtests"
       }
     ]
   }

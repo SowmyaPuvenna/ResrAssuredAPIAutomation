@@ -67,6 +67,4 @@ public class SocialNetworkingStepDef {
 			Assert.assertTrue(isPresent);
 			log.info("Keys are present in response");
 		}
-	
-
 }

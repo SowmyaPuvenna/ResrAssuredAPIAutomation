@@ -8,7 +8,7 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@AllApiExecution"
+      "name": "@apiservtests"
     }
   ]
 });
@@ -22,7 +22,7 @@ formatter.scenarioOutline({
   "tags": [
     {
       "line": 3,
-      "name": "@FirstAPI"
+      "name": "@firsttest"
     }
   ]
 });
@@ -122,12 +122,12 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 3,
-      "name": "@FirstAPI"
+      "line": 1,
+      "name": "@apiservtests"
     },
     {
-      "line": 1,
-      "name": "@AllApiExecution"
+      "line": 3,
+      "name": "@firsttest"
     }
   ]
 });
@@ -201,7 +201,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 150757701,
+  "duration": 303223400,
   "status": "passed"
 });
 formatter.match({
@@ -218,7 +218,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 1781783100,
+  "duration": 3250559300,
   "status": "passed"
 });
 formatter.match({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 2145399,
+  "duration": 6516000,
   "status": "passed"
 });
 formatter.match({
@@ -252,7 +252,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 42485100,
+  "duration": 177517800,
   "status": "passed"
 });
 formatter.match({
@@ -265,7 +265,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1440900,
+  "duration": 3935200,
   "status": "passed"
 });
 formatter.scenario({
@@ -277,12 +277,12 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 3,
-      "name": "@FirstAPI"
+      "line": 1,
+      "name": "@apiservtests"
     },
     {
-      "line": 1,
-      "name": "@AllApiExecution"
+      "line": 3,
+      "name": "@firsttest"
     }
   ]
 });
@@ -356,7 +356,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 885500,
+  "duration": 4199000,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 511755799,
+  "duration": 1275578100,
   "status": "passed"
 });
 formatter.match({
@@ -390,7 +390,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 1824001,
+  "duration": 1968200,
   "status": "passed"
 });
 formatter.match({
@@ -407,7 +407,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 3394700,
+  "duration": 4939400,
   "status": "passed"
 });
 formatter.match({
@@ -420,7 +420,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 1153099,
+  "duration": 2313000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -433,7 +433,7 @@ formatter.scenarioOutline({
   "tags": [
     {
       "line": 19,
-      "name": "@SecondAPI"
+      "name": "@secondtest"
     }
   ]
 });
@@ -539,12 +539,12 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 19,
-      "name": "@SecondAPI"
+      "line": 1,
+      "name": "@apiservtests"
     },
     {
-      "line": 1,
-      "name": "@AllApiExecution"
+      "line": 19,
+      "name": "@secondtest"
     }
   ]
 });
@@ -624,7 +624,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 1417100,
+  "duration": 3510900,
   "status": "passed"
 });
 formatter.match({
@@ -641,7 +641,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 551042600,
+  "duration": 1070246500,
   "status": "passed"
 });
 formatter.match({
@@ -658,7 +658,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 334700,
+  "duration": 1535200,
   "status": "passed"
 });
 formatter.match({
@@ -675,7 +675,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 438801,
+  "duration": 1792400,
   "status": "passed"
 });
 formatter.match({
@@ -688,7 +688,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 324600,
+  "duration": 1583100,
   "status": "passed"
 });
 formatter.scenario({
@@ -700,12 +700,12 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 19,
-      "name": "@SecondAPI"
+      "line": 1,
+      "name": "@apiservtests"
     },
     {
-      "line": 1,
-      "name": "@AllApiExecution"
+      "line": 19,
+      "name": "@secondtest"
     }
   ]
 });
@@ -785,7 +785,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 596100,
+  "duration": 3041300,
   "status": "passed"
 });
 formatter.match({
@@ -802,7 +802,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 610162000,
+  "duration": 1103020300,
   "status": "passed"
 });
 formatter.match({
@@ -819,7 +819,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 497100,
+  "duration": 1520900,
   "status": "passed"
 });
 formatter.match({
@@ -836,7 +836,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 513300,
+  "duration": 2326800,
   "status": "passed"
 });
 formatter.match({
@@ -849,7 +849,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 549901,
+  "duration": 2819400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -862,7 +862,7 @@ formatter.scenarioOutline({
   "tags": [
     {
       "line": 36,
-      "name": "@ThirdAPI"
+      "name": "@thirdtest"
     }
   ]
 });
@@ -981,11 +981,11 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@AllApiExecution"
+      "name": "@apiservtests"
     },
     {
       "line": 36,
-      "name": "@ThirdAPI"
+      "name": "@thirdtest"
     }
   ]
 });
@@ -1077,7 +1077,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 628400,
+  "duration": 3043400,
   "status": "passed"
 });
 formatter.match({
@@ -1094,7 +1094,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 418256500,
+  "duration": 987736500,
   "status": "passed"
 });
 formatter.match({
@@ -1111,7 +1111,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 306400,
+  "duration": 1373600,
   "status": "passed"
 });
 formatter.match({
@@ -1128,7 +1128,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 498000,
+  "duration": 2056500,
   "status": "passed"
 });
 formatter.match({
@@ -1141,7 +1141,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 342000,
+  "duration": 1386600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1154,11 +1154,11 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@AllApiExecution"
+      "name": "@apiservtests"
     },
     {
       "line": 36,
-      "name": "@ThirdAPI"
+      "name": "@thirdtest"
     }
   ]
 });
@@ -1250,7 +1250,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiURI(String)"
 });
 formatter.result({
-  "duration": 769600,
+  "duration": 3091300,
   "status": "passed"
 });
 formatter.match({
@@ -1267,7 +1267,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.apiPassedParams(String,String)"
 });
 formatter.result({
-  "duration": 485077600,
+  "duration": 1635215800,
   "status": "passed"
 });
 formatter.match({
@@ -1284,7 +1284,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseCode(String,String)"
 });
 formatter.result({
-  "duration": 352300,
+  "duration": 1434500,
   "status": "passed"
 });
 formatter.match({
@@ -1301,7 +1301,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponse(String,String)"
 });
 formatter.result({
-  "duration": 480999,
+  "duration": 1875800,
   "status": "passed"
 });
 formatter.match({
@@ -1314,7 +1314,7 @@ formatter.match({
   "location": "SocialNetworkingStepDef.verifyResponseAttributes(String,DataTable)"
 });
 formatter.result({
-  "duration": 506600,
+  "duration": 1370900,
   "status": "passed"
 });
 });
